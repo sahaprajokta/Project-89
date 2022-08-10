@@ -1,0 +1,63 @@
+body {
+    background: rgb(6, 116, 227);
+    background: linear-gradient(circle, rgba(183, 6, 227, 0.8) 26%, rgba(23, 49, 196, 0.8) 88%);
+    background-size: cover;
+    background-position: center;
+}
+
+.quiz_login1,
+.quiz_login2 {
+    background: linear-gradient(circle, rgba(227, 6, 6, 0.8) 26%, rgba(202, 216, 11, 0.8) 88%);
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+    margin-left: 375px;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(50, 245, 43);
+    font-family: Arial
+}
+
+#login {
+    width: 30%;
+    font-weight: 700;
+    margin-top: 200px;
+    margin-right: 120px;
+    margin-left: 395px;
+}
+
+.login_text {
+    color: deepskyblue;
+    font-family: sans-serif;
+}
+
+.noteL {
+    font-size: 20px;
+    color: royalblue;
+}
+
+#send {
+    font-weight: 700;
+}
+
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: rgb(49, 174, 247) 10px solid;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+
+#player_question,
+#player_answer {
+    color: whitesmoke;
+}
+
+#display_number {
+    letter-spacing: 5px;
+}
